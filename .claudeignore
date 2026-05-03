@@ -1,0 +1,33 @@
+# Archivos pesados / no relevantes para Claude — evita gastar tokens leyéndolos.
+_legacy/
+node_modules/
+.venv/
+venv/
+dist/
+build/
+.vite/
+__pycache__/
+*.pyc
+
+# Binarios y archivos
+*.zip
+*.exe
+*.winmd
+*.csv
+*.mov
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Lockfiles (poco valor por token)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+poetry.lock
+Pipfile.lock
+
+# Env
+.env
+.env.local
